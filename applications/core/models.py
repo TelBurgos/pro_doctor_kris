@@ -24,6 +24,11 @@ class Doctor(models.Model):
 
     def __str__(self):
         return f"{self.nombres} {self.apellidos}"
+    
+    class Meta:
+        verbose_name = "Doctor"
+        verbose_name_plural = "Doctores"
+        ordering = ['apellidos', 'nombres']
 
 
 class Empleado(models.Model):

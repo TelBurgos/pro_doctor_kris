@@ -39,6 +39,22 @@ menu5, created = Menu.objects.get_or_create(
     defaults={'icon': 'bi bi-shield-lock', 'order': 5}
 )
 
+menu6, created = Menu.objects.create(
+    name='Menu Medico',
+    icon='fas fa-user-md',
+    order=6
+)
+menu7, created = Menu.objects.create(
+    name='Personal',
+    icon='fas fa-users',    
+    order=7
+)
+menu8, created = Menu.objects.create(
+    name='FInanzas',
+    icon='fas fa-dollar-sign', 
+    order=8
+)
+
 # ============================================================================
 # CREACIÓN DE MÓDULOS
 # ============================================================================

@@ -103,7 +103,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'doctors_pro',
         'USER': 'postgres',
-        'PASSWORD': 'basedatos25',
+        'PASSWORD': 'Kibu120@',
         'HOST': 'localhost',  # o la IP del servidor de base de datos
         'PORT': '5432',        # puerto por defecto de PostgreSQL
     }
